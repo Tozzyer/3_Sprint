@@ -8,8 +8,9 @@ public class Main {
     static Scanner scanner;
 
     public static void main(String[] args) {
-        dc = new DinnerConstructor();
+
         scanner = new Scanner(System.in);
+        dc = new DinnerConstructor();
 
         while (true) {
             printMenu();
